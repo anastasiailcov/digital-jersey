@@ -1,0 +1,135 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('fonts/ProximaNova-Regular.otf') format ('otf');
+}
+
+body {
+	font-family: 'Proxima Nova', sans-serif;
+	margin: 0;
+	background-color: #DEDEDE;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 1400px;
+	padding: 0;
+	background-color: white;
+}
+
+/**********HEADER**********/
+
+.main-header{ 
+	width:100%;
+	margin: 0;
+	padding: 20px 50px 25px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dj-logo {
+	/*display: block;*/
+	height: 80px;
+}
+
+nav ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 120px;
+}
+
+nav a {
+	color: #111;
+	font-weight: bold;
+	font-size: 1.125em;
+}
+
+nav a:hover{
+	color: #7a5b9a;
+}
+
+/**********HERO**********/
+h1 {
+	margin: 0;
+	color: white;
+	text-align: center;
+	font-size: 3.5em;
+	font-weight: bold;
+	padding-top: 130px;
+}
+.hero p {
+	color: white;
+	margin: 0;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 20px;
+	line-height: 170%;
+}
+
+.hero {
+	width: 100%;
+	height: 413px;
+	background-image: url('../img/students-bg-cropped.jpg');
+	background-repeat: no-repeat;
+}
+
+
+/**********SECTIION**********/
+.main-section {
+	width: 100%;
+	margin: 0;
+	padding: 50px;
+
+}
+.gallery {
+	margin: 0;
+	padding:0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.gallery li {
+	background-color: #eee;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cdcdcd;
+	width: 30%;
+}
+
+.gallery li p{
+	color: #14212A;
+	line-height: 140%;
+	font-size: 1em;
+	padding:0 40px 40px 40px;
+
+}
+
+.gallery li:hover {
+	background-color: #ccc;
+}
+
+.gallery img {
+	display: block;
+	margin:30px auto;
+	height: 100px;
+	/*width: 40%;*/
+}

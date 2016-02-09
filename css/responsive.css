@@ -1,0 +1,35 @@
+@media screen and (max-width:480px){
+	/*.wrapper {
+		background-color: red;
+	}*/
+	.main-header {
+		padding: 10px 10px 10px 10px;
+		display: flex;
+		flex-direction:column;
+		justify-content: space-between;
+		align-items:center;
+	}
+
+	 .menu {
+		margin:0;
+		padding: 0;
+	}
+	nav li{
+		margin:20px 7px 3px 7px;
+	}
+
+	nav a {
+		font-size: 0.9em;
+	}
+
+	h1 {
+		padding-top: 60px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.hero p{
+		padding: 20px;
+	}
+
+}
